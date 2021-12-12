@@ -36,7 +36,8 @@ h2
 
 
 a, a:hover
-{ outline: none;
+{ font-size: 110%;
+  outline: none;
   text-decoration: underline;
   color: #AEB002;}
 
