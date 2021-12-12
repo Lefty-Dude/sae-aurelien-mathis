@@ -36,8 +36,7 @@ h2
 
 
 a, a:hover
-{ font-size: 1.5 em;
-  outline: none;
+{  outline: none;
   text-decoration: underline;
   color: #AEB002;}
 
@@ -45,6 +44,11 @@ a, a:hover
 p
 { line-height: 1.5em;
   padding-bottom: 17px;}
+
+p a{
+  font-size: 1.5 em;
+  font-weight: bold;
+}
 
 .left
 { float: left;
