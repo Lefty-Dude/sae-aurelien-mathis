@@ -1,0 +1,8 @@
+<p>Pour ce qui est du modèle économique, les deux start-up opèrent différement :</p>
+					<ul>
+						<li>Adagos fait telecharger son logiciel sur Internet, BeeGuard fournit ses outils par correspondance</li>
+						<li>L'installation des outils de BeeGuard est simple, avec une autonomie de 2 ans</li>
+						<li>Plusieurs version du logiciel d'Adagos, et ajout d'add-ons</li>
+						<li>Dépense d'Adagos liées a leur recherches, dépenses de Beeguard liées a leur production</li>
+					</ul>
+					<p>Cependant, certaines similitudes peuvent être trouvées, telles que 

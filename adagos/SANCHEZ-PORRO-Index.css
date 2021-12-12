@@ -1,0 +1,157 @@
+/*site en général*/
+body
+{
+    background: url('Pictures/lightgreen.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: green;
+}
+
+
+/*titre*/
+header{
+	color: black;
+    text-align:center;
+}
+
+header h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+	text-decoration: underline;
+}
+
+header h2
+{
+    font-size: 1.8em;
+    margin-top: 0px;
+    font-weight: normal;
+	text-decoration: underline;
+}
+
+
+
+img{
+	height: 99%;
+	width: 99%;
+}
+
+
+/*liens*/
+nav {
+	background: url('Pictures/white.png');
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	border-radius: 80px;
+
+}
+
+
+nav div
+{
+    margin-left: 60px;
+}
+
+nav a{
+	font-size: 1.3em;
+    color: #008113;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover{
+	transition: 0.1s;
+    color: #0f2100;
+    border-bottom: 3px solid #0f2100;
+}
+
+
+/*présentation de l'entreprise*/
+.section {
+	display: flex;
+	height: auto;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	background: url('Pictures/grey.png');
+    flex-direction: column;
+	border-radius: 50px;
+	
+}
+
+.section article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background: url('Pictures/white.png');
+	font-size: 1.2em;
+	border-radius: 30px;
+
+}
+
+article div {
+	height: auto;
+	margin: auto;
+}
+
+.section h3{
+	text-align: center;
+    font-size: 1.8em;
+	text-decoration: underline;
+}
+
+.section h4{
+	font-size: 1.4em;
+	text-decoration: underline;
+}
+
+
+h5 {
+    padding: 3px;
+    text-align: center;
+}
+
+h5 a{
+	color: green;
+    font-weight: bold;
+}
+
+
+/*liens vers index et adagos*/
+footer{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+footer div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+
+footer a{
+	padding-top:10px;
+	font-size: 1.3em;
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+	transition: 0.2s;
+    color: red;
+}

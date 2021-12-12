@@ -1,0 +1,116 @@
+html
+{ }
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font-family: "trebuchet ms", arial, sans-serif;
+  font-size: .84em;
+  color: #222;
+  line-height: 1.4em;
+  background-image:url("https://thumbs.dreamstime.com/b/vieux-bois-blanc-ou-mod%C3%A8le-d%C3%A9coratif-en-bois-de-fond-ext%C3%A9rieur-de-plancher-ou-de-mur-de-planche-de-vintage-une-couverture-de-96605107.jpg");
+  background-color: #cccccc;
+  width: 900px;
+  margin: 10px auto 0px auto;}
+  
+h1, h2
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1
+{ font: normal 150% arial;
+  margin: 0 0 15px 0;
+  padding: 0 0 5px 0;
+  color: #FFFFFF;}
+
+h2
+{ font-size: 110%;
+  padding: 9px 0 5px 0;
+  color: #009FBC;}
+
+
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: blue;}
+
+a:hover
+{ text-decoration: none;}
+
+p
+{ line-height: 1.5em;
+  padding-bottom: 17px;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 12px 0;}
+
+ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+ol
+{ margin: 8px 0 22px 0;}
+
+ol li
+{ margin: 0 0 11px 20px;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#basic-accordian
+{ padding: 0px;
+  background: #FFF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px ;
+  background: #F0C300;
+  color: #6F3A0E;
+  border-top: 2px solid #000000;
+  
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+
+  font-size: 190%;
+  position: relative;
+  z-index: 20;}
+
+
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;}
+
+.header_highlight
+{ background: #F0C300;}
+

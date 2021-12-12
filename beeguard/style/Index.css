@@ -1,0 +1,119 @@
+html
+{ }
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font-family: "trebuchet ms", arial, sans-serif;
+  font-size: .84em;
+  color: #222;
+  line-height: 1.4em;
+  background-image:url("images/hexa.png");
+ 
+ 
+
+  width: 900px;
+  margin: 10px auto 0px auto;}
+  
+h1, h2
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1
+{ font: normal 150% arial;
+  margin: 0 0 15px 0;
+  padding: 0 0 5px 0;
+  color: #FFFFFF;}
+
+h2
+{ font-size: 110%;
+  padding: 9px 0 5px 0;
+  color: #009FBC;}
+
+
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #AEB002;}
+
+
+p
+{ line-height: 1.5em;
+  padding-bottom: 17px;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#basic-accordian
+{ padding: 0px;
+  background: #DFDFDF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px ;
+  background: #DFDFDF;
+  color: #000;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  
+  font-size: 190%;
+  position: relative;
+  z-index: 20;}
+
+
+
+
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;}
+
+.header_highlight
+{ background: #DFDFDF;}
+
+#basic-accordian #Titre-Adagos {
+    float:left;
+    width:42%;
+}
+#basic-accordian #Titre-BeeGuard {
+    margin-left:48%  
+    
+}
+
+
+#basic-accordian #Adagos {
+    float:left;
+    width:42%;
+    height: 270px;
+    background: #031A08;
+    color: #FFF;
+}
+#basic-accordian #BeeGuard {
+    margin-left:50%  
+    float:left;
+  height: auto;
+    background: #FFF;
+    color: #000;
+}
